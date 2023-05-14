@@ -1,0 +1,42 @@
+.contact_content{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	background-color: #EDF0F4;
+	padding: 40px 10px;
+}
+
+.text_bold{
+	font-weight:700;
+	font-size:24px ;
+	line-height: 29px;
+	color: #3b4754;
+}
+.text_normal{
+	color: #798da3;
+	font-size: 12px;
+	line-height:18px;
+	font-weight: 400;
+	text-align: center;
+	margin: 30px 0;
+}
+.icon{
+	display: flex;
+}
+
+.icon_size{
+	color:#798da3;
+}
+.bg_white{
+	background-color:#fff;
+	border-radius:100%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.bg_white:nth-child(2){
+	margin: 0 20px;
+}
